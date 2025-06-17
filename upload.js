@@ -1,6 +1,6 @@
 const cloudName = 'janisz-vanish';
 const uploadPreset = 'wedding';
-const backendUrl = 'https://wedding-backend-x2he.onrender.com';
+const backendUrl = 'https://wedding-backend-x2he.onrender.com/photos';
 
 const urlParams = new URLSearchParams(window.location.search);
 const secretToken = urlParams.get('token') || '';
