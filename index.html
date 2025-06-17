@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wrzucanie zdjęć z wesela</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>💍🕊️ Hania i Marcin 🕊️💍</h1>
+
+    <input type="file" id="file-input" accept="image/*" multiple />
+
+    <button id="upload-btn">📤 Wyślij zdjęcie</button>
+    <p id="status"></p>
+
+    <h2>Co już mamy:</h2>
+    <div id="gallery"></div>
+    <div id="pagination" style="text-align:center; margin-top: 20px;"></div>
+  </div>
+
+  <script src="upload.js"></script>
+</body>
+</html>
