@@ -32,8 +32,14 @@ h2 {
 #file-input {
   display: block;
   margin: 20px auto 10px auto;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 12px 16px;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  background-color: #fff0f5;
+  cursor: pointer;
 }
+
 
 #upload-btn {
   display: block;
